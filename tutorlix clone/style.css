@@ -1,0 +1,223 @@
+.m-0 {
+    margin: 0;
+    padding: 0;
+  height: 100%;
+  width: 100%;
+    
+}
+
+.logo {
+    padding: 17px;
+    margin: 0;
+    max-height: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+     
+    gap: 15px;
+    font-weight: bolder;
+    background: #f5c44e;
+    height: 100px;
+
+}
+
+input {
+    width: 60vw;
+    height: 30px;
+    margin-left: 270px;
+}
+
+.items {
+    display: flex;
+    gap: 50px;
+    padding: 25px;
+}
+
+.Home {
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.black-header {
+    background: #111111;
+    font-family: course;
+    width: 100%;
+    position: sticky;
+    top: -1px;
+    z-index: 100;
+    height: 120px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    
+}
+
+.fa-user {
+    color: #f5c44e;
+}
+
+.fa-shopping-cart {
+    color: #f5c44e;
+}
+
+.fa-coins {
+    color: #f5c44e;
+}
+
+.fa-chalkboard-teacher {
+    color: #f5c44e;
+}
+
+.sp {
+    color: white;
+}
+
+.bg-yellow {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: #f5c44e;
+    justify-content: center;
+    gap: 25px;
+}
+
+.btn {
+    color: #111111;
+    font-weight: 400;
+    padding: 25px;
+}
+
+.parallex {
+    background: url(parallex.jpg);
+    min-height: 30vH;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dark {
+    background: rgba(0, 0, 0, 0.8);
+    min-height: 30vH;
+    width: 100%;
+}
+
+.dark-x {
+    padding: 47px;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.font {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-family: cursive;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    max-width: 100vw;
+    
+}
+.card{
+    height: 30vh;
+    width: 30vw;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.card-1{
+    display: flex;
+    justify-content: center;
+}
+.card-2{
+    font-size: larger;
+}
+.card-3{
+    font-size: medium;
+    color: #6c757d ;
+}
+.text-center{
+    display: flex;
+    
+    margin-left: 100px;
+    gap: 10px;
+}
+.demo{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+figcaption{
+    margin-left: 117px;
+}
+button{
+    background: #343a40;
+    margin-left: 218px;
+    color:#f5c44e;;
+    border-radius: 3px;
+    height: 27px;
+    width: 100px;
+}
+.course{
+    margin-left: 80vw;
+}
+/* .carousel-indicators {
+    position: absolute;
+
+    display: flex;
+
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+} */
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: right;
+}
+.carousel-item{
+    width: 100%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.about{
+    height: 100%;
+    width: 100%;
+    color: #efefef;
+}
+.para{
+    margin-left: 170px;
+    color: black;
+    margin-left: 50px;
+}
+.footer{
+    background: #000;
+}
+ 
